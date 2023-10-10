@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Clue2 from './Clue2'
+import Code2 from './Code2'
 
 const Clue1 = () => {
+
+    const [pw2, setPw2] = useState(false)
+
   return (
     <div>
         <p>You open the book and out falls a love letter. </p>
@@ -11,6 +16,9 @@ const Clue1 = () => {
             <p><em>Mark</em></p>
         </div>
         <p>What a dramatic reveal!!</p>
+        <br></br>
+        <p>Case Notes: The detective was looking out at Lafayette Park when he spotted a fire hazard! </p>
+        {pw2 === true? <Clue2 />: <Code2 setPw2={setPw2}/>}
     </div>
   )
 }

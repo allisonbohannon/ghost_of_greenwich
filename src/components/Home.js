@@ -6,9 +6,6 @@ import Code1 from './Code1'
 const Home = () => {
   
   const [pw1, setPw1] = useState(false)
-  const [pw2, setPw2] = useState(false)
-  const [pw3, setPw3] = useState(false)
-  const [pw4, setPw4] = useState(false)
 
   return (
     <div>
@@ -23,9 +20,7 @@ const Home = () => {
         <p>To find your next clue, the Case Notes indicate a single book was off of the bookshelf and on the coffee table at the time of the murder. Lisa said that Mark meant to lend her a book... some Russian novel about a cocktail? </p>
       
        {pw1 === true? <Clue1 />: <Code1 setPw1={setPw1}/>}
-       {/*{clue2 === true? <Clue2 />: ""}
-       {clue3 === true? <Clue3 />: ""}
-       {clue4 === true? <Clue4 />: ""} */}
+    
     </div>
   )
 }
