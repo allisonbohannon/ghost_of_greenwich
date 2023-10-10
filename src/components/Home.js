@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Carousel from './Carousel'
 
 const Home = () => {
   
@@ -15,7 +16,7 @@ const Home = () => {
        <p>Tonight, you’ll review the case files to see if you can solve the mystery. If you guess correctly, you’re in for a treat. If you guess wrong, well, don’t guess wrong...</p>
        <br></br>
        <p>Involved Parties </p>
-       {/* Carousel */}
+       <Carousel/>
       
        {/* {clue1 = true? <Clue1 />: ""}
        {clue2 = true? <Clue2 />: ""}
