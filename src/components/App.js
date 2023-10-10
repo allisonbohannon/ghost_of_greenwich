@@ -9,6 +9,7 @@ function App() {
           Come solve the mystery of the Ghost of Greenwich! 
           <Routes>
             <Route path="/" element={<Home />}/>
+
           </Routes>
       </div>
      
