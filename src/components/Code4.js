@@ -5,21 +5,21 @@ const Code4 = ({setPw4}) => {
     const [codeWord, setCodeWord] = useState()
     const [err, setErr] = useState(false)
     
-    const handleSubmit = (e) => {   
+    const handleSubmit = (e) => {
         e.preventDefault();
         setErr(false);
-        if (codeWord.toLowerCase() === "forbes") {
-            setPw4(true)
+        if (codeWord.toLowerCase() === "pink") {
+            setPw4(true);
         } else {
-            setErr(true)
+            setErr(true);
         }
-
     }  
+
   return (
     <div>
          <form onSubmit={handleSubmit}>
             <div class="form-group">
-                <input  class="form-control" id="exampleInputPassword1" value={codeWord} onChange={(e)=>setCodeWord(e.target.value)} placeholder="what is the name of the magazine?"/>
+                <input  class="form-control" id="exampleInputPassword1" value={codeWord} onChange={(e)=>setCodeWord(e.target.value)} placeholder="what color is the laptop?"/>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>

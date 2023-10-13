@@ -41,7 +41,7 @@ const Carousel = () => {
                     <div class="carousel-item">
                         <div class="container">
                             <div class="text-center">
-                                <h1>Lisa Holton</h1>
+                                <h1>Lisa Blackwood</h1>
                                 <h5><em>Status: Suspect</em></h5>
                             </div>
                             <div class="container">
@@ -55,12 +55,12 @@ const Carousel = () => {
                     <div class="carousel-item">
                         <div class="container">
                             <div class="text-center">
-                                <h1>David Holton</h1>
+                                <h1>David Blackwood</h1>
                                 <h5><em>Status: Suspect</em></h5>
                             </div>
                             <div class="container">
-                                <p>About: a wealthy, influential VC from the storied Holtons of Atherton</p>
-                                <p>Witness Statement: It was a big night for us all, so we were toasting to celebrate! I don’t know, man. We were pouring the champagne downstairs; Lisa and I had to talk to our lawyer at one point which was a pretty big buzzkill.  Then we were on the roof. We were all drinking pretty heavily, Lisa got sick like she always does and had to go downstairs to the bathroom, but at least she came back with more bubbles! I dunno, we were just partying</p>
+                                <p>About: a wealthy, influential VC from the storied Blackwoods of Atherton</p>
+                                <p>Witness Statement: It was a big night for us all, so we were toasting to celebrate! I don’t know, man. We were pouring the champagne downstairs; Lisa and I had to talk to our lawyer at one point which was a pretty big buzzkill but I needed to get some changes made ASAP.  Then we were on the roof. We were all drinking pretty heavily, Lisa got sick like she always does and had to go downstairs to the bathroom, but at least she came back with more bubbles! I dunno, we were just partying</p>
                             </div>
                         </div>
                         <br></br>

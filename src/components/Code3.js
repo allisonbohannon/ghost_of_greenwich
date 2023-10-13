@@ -8,18 +8,18 @@ const Code3 = ({setPw3}) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setErr(false);
-        if (codeWord.toLowerCase() === "forbes") {
-            setPw3(true)
+        if (codeWord.toLowerCase() === "hanover") {
+            setPw3(true);
         } else {
-            setErr(true)
+            setErr(true);
         }
-
     }  
+
   return (
     <div>
          <form onSubmit={handleSubmit}>
             <div class="form-group">
-                <input  class="form-control" id="exampleInputPassword1" value={codeWord} onChange={(e)=>setCodeWord(e.target.value)} placeholder="what is the name of the magazine?"/>
+                <input  class="form-control" id="exampleInputPassword1" value={codeWord} onChange={(e)=>setCodeWord(e.target.value)} placeholder="what is the name of the law firm?"/>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>

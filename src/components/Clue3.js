@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
-import Clue4 from './Clue3'
-import Code4 from './Code3'
+import Clue4 from './Clue4'
+import Code4 from './Code4'
+import pic from '../images/Post-Nup.jpg'
 
 const Clue3 = () => {
 
@@ -8,13 +9,13 @@ const Clue3 = () => {
 
   return (
     <div>
-        <p>You open the magazine and see an interesting article... </p>
-        <div class="p-3 mb-2 bg-light text-dark">
-           <p></p>
+        <p>You spot a manilla envelope on the back stairs. Inside is an important looking document, a contract maybe? </p>
+        <div class="p-3 mb-2 bg-light text-dark" style={{textAlign:"center"}}>
+        <img src={pic} alt="post-nup" style={{width:'80%'}}/>
         </div>
-        <p>xx</p>
+        <p>I wonder why Mark was in such a rush to get this signed... </p>
         <br></br>
-        <p>Case Notes:  </p>
+        <p>Case Notes: Jenny recalled he had been frantically checking his emails, and had suddenly refused to let her see his computer... </p>
         {pw4 === true? <Clue4 />: <Code4 setPw4={setPw4}/>}
     </div>
   )
