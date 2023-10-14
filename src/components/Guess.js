@@ -17,14 +17,15 @@ const Guess = () => {
    <div>
         <div><br></br></div>
         <div class="container" style={{display:"inline-flex", justifyContent:"space-around"}}>
-            <button type="button" class="btn btn-secondary" style={{width:"25%"}} value="jenny" onClick={handleClick}>Jenny, the cofounder and wife</button>
-            <button type="button" class="btn btn-secondary" style={{width:"25%"}} value="lisa" onClick={handleClick}>Lisa, the lover</button>
-            <button type="button" class="btn btn-secondary" style={{width:"25%"}} value="mark" onClick={handleClick}>Mark, the investor</button>
+            <button type="button" class="btn btn-secondary" style={{width:"25%"}} value="jenny" onClick={handleClick}>Jenny</button>
+            <button type="button" class="btn btn-secondary" style={{width:"25%"}} value="lisa" onClick={handleClick}>Lisa</button>
+            <button type="button" class="btn btn-secondary" style={{width:"25%"}} value="mark" onClick={handleClick}>Mark</button>
         </div>
         <div class="container">
             <br></br>
             <h3>{killer}</h3>
         </div>
+        <h3>{killer === null ? "" : "Say: Ziggy, reset the room to try again or to leave"}</h3>
    </div>
   )
 }
