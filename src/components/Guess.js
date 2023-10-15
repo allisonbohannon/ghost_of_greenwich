@@ -19,13 +19,13 @@ const Guess = () => {
         <div class="container" style={{display:"inline-flex", justifyContent:"space-around"}}>
             <button type="button" class="btn btn-secondary" style={{width:"25%"}} value="jenny" onClick={handleClick}>Jenny</button>
             <button type="button" class="btn btn-secondary" style={{width:"25%"}} value="lisa" onClick={handleClick}>Lisa</button>
-            <button type="button" class="btn btn-secondary" style={{width:"25%"}} value="mark" onClick={handleClick}>Mark</button>
+            <button type="button" class="btn btn-secondary" style={{width:"25%"}} value="mark" onClick={handleClick}>David</button>
         </div>
         <div class="container">
             <br></br>
             <h3>{killer}</h3>
         </div>
-        <h3>{killer === null ? "" : "Say: Ziggy, reset the room to try again or to leave"}</h3>
+        <h3>{killer === null ? "" : "To reset the room or try again, say: Ziggy, reset the room"}</h3>
    </div>
   )
 }
