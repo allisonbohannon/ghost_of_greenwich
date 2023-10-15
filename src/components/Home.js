@@ -17,7 +17,7 @@ const Home = () => {
        <p>Case Notes: Involved Parties </p>
        <Carousel/>
 
-        <p>To find your next clue, the Case Notes indicate a single book was off of the bookshelf and on the coffee table at the time of the murder. Lisa said that Mark meant to lend her a book... some Russian novel about a cocktail? </p>
+        <p>To find your next clue, the Case Notes indicate a single book was askew on the the bookshelf at the time of the murder. Lisa said that Mark meant to lend her a book... some Russian novel about a cocktail? </p>
       
        {pw1 === true? <Clue1 />: <Code1 setPw1={setPw1}/>}
     
