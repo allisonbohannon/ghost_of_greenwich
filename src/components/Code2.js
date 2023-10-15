@@ -8,7 +8,7 @@ const Code2 = ({setPw2}) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setErr(false);
-        if (codeWord.toLowerCase() === "forbes") {
+        if (codeWord.toLowerCase() === "forbes" || codeWord === "Forbes") {
             setPw2(true)
         } else {
             setErr(true)
