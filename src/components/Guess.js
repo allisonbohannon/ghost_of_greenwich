@@ -9,7 +9,7 @@ const Guess = () => {
         } else if (e.target.value === "lisa") {
             setKiller("Say: Ziggy, I'm pretty sure it was Lisa")
         } else {
-            setKiller("Say: Ziggy, Mark obviously did it")
+            setKiller("Say: Ziggy, David obviously did it")
         }
     }
   return (
